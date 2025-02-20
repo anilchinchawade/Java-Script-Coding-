@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript Object Constructors</h1>
+    <p id="demo"></p>
+    <script>
+      // Constructor Function for Person objects
+      function Person(first, last, age, eye) {
+        this.firstName = first;
+        this.lastName = last;
+        this.age = age;
+        this.eyeColor = eye;
+      } // Create a Person object
+      const myFather = new Person('John', 'Doe', 50, 'blue'); // Display age
+      const me = new Person('Anil', 'Doe', 30, 'black'); // Display age
+      const myMother = new Person('Mangal', 'Doe', 45, 'black'); // Display age
+
+      document.getElementById('demo').innerHTML = 'Age is ' + me.age + '.';
+    </script>
+  </body>
+</html>

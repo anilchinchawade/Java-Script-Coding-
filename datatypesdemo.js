@@ -11,7 +11,19 @@
 - object      ===> 
 */
 
+let myname1 = Symbol("anil")
+let myname2 = Symbol("chinchawade")
+console.log(myname1 == myname2);
 
-console.log(typeof "Anil")
-console.log(typeof undefined);
-console.log(typeof null);
+// console.log(typeof myname1, myname1);
+
+
+const user = {
+    myname1 : "Anil",
+    rollNo : 23,
+}
+
+// console.log(typeof user, user.myname);
+
+
+
